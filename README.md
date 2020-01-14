@@ -12,33 +12,25 @@ This documentation will provide the methodology to connect your firebase databas
 
 ```php
 <?php
-
-require __DIR__.'/vendor/autoload.php';
+require './vendor/autoload.php';
 
 use Kreait\Firebase\Factory;
-<?php
+
+// echo "Path = " .  __DIR__.'/private/paragliding-monitoring-system-firebase-adminsdk-qbrdr-31ef161f00.json';
 $factory = (new Factory)
-    ->withServiceAccount('/path/to/google-service-account.json')
-    // The following line is optional if the project id in your credentials file
-    // is identical to the subdomain of your Firebase project. If you need it,
-    // make sure to replace the URL with the URL of your project.
-    ->withDatabaseUri('https://paragliding-monitoring-system.firebaseio.com/');
+    ->withServiceAccount('suitable/location/for/file/private-key.json')
+    ->withDatabaseUri('URL of the project')
+    ->create();
 
-$database = $factory->createDatabase();
+$database = $factory->getDatabase();
 
-$newPost = $database
-    ->getReference('blog/posts')
-    ->push([
-        'title' => 'Post title',
-        'body' => 'This should probably be longer.'
-    ]);
-
-$newPost->getKey(); // => -KVr5eu8gcTv7_AHb-3-
-$newPost->getUri(); // => https://my-project.firebaseio.com/blog/posts/-KVr5eu8gcTv7_AHb-3-
-
-$newPost->getChild('title')->set('Changed post title');
-$newPost->getValue(); // Fetches the data from the realtime database
-$newPost->remove();
-
+$ref = 'Paraglider Location';
+$i=0;
+$data = $database->getReference($ref)->getValue();
+print_r($data);
+$lat = $data['latitude'];
+$lng = $data['longitude'];
+$alt = $data['altitude'];
+echo "<h1>Latitude = ".$lat."</h1><h1>Longitude = ".$lng."</h1><h1>Altitude = ".$alt."</h1>";
 ?>
 ```
