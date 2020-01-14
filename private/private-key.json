@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "paragliding-monitoring-system",
+  "private_key_id": "31ef161f0065f580f6870af3d65af1115df74fad",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/aqgOIKWJUl9B\neeVGq5ZFZU8bCawwPyNoJZDtDN+1Y6oJiGfrsoMe7+SSPWrnXDuoZTnFCEC8iUdd\nea9cYUOgrifeOd37srtUqUlYgTa3mMoNQcYp8o3bVW95djbSYKqAN1sSr0y9kphy\nud9J4V2C+uqBfqVYs4CuYY17CaV9wR0jCvRTUraxKcZ41TQs8VRxVlbJkiLekaJj\nDXxTNgtePO3YAzzPHfuNPtI2vCfJ4sZJbdcCSoEMCf/R6MBdx9IfnY0DK22dea1+\nsP1evOveZneKBFY2JwR5ddEMuFHniz84SB3tap0xz3ruDuMR5ojXZJQg+uAsVHG5\n8MDPcgxjAgMBAAECggEABy4+mK0T2Kds6F1kwvZr4DWRNp/xxCuSLfV+zs21VK4k\n8k+aKmbbcV0pc2z3Zi95E3Ocq64IE6qIsVJ/yBTj/xKZb0Y3dBo72cyx8i6CuXdz\nWPT3NJqjRK+bS3CqVNEIhF/PPE+0LsZhjqg3XqOkKOY1xt7T4BR3xtLlBlER0rpL\nu2eI516pM6G1HhcTij909mi+SBUYKF+Ie4SrGKK4zzceIKWjMFtpEEU9TlMz56y5\nLOFy6Uorsib+bsYgeY+l9xaSg0JBEmI6T9SCOUoM9TxzJ0cH9FXmCXE0TI4rGVjJ\nOzvATmDrKxqWks7qVtYNl2aRdJ98x3lvRGa7DyJZuQKBgQDh0ZxY1UzSpOXuy2NK\n4Ub2/TK7fUxgAaMBRGgIFA+I119RvSVUAzYZ+ihuH4h/uAw+qbvqmolgsksfzE1c\nOqQU65K594Vkn6fgWiB76qDYYRhATZ5cxkUZu7YQerYs8/lONWeA/0K2+lTQBUa1\nOw3dULf2CzXaQVqa+7TBmxVUuQKBgQDY//nLjrqZM3qWkPIUeaN4fS1FTlDgwFQ4\nxw7599dgvl+uxLmV6SfTB6C3wE48xyobybKsjLYkbhU9qFqLlRhwOkk9K4lC32H/\nvkbhldGZNnSmk+YvO7q50T9+KU9+6rsrD5U4RsxC44ZdFYGd2vh9JEGWnrRfa5q+\njOCuJ5BT+wKBgQCRbKiwOKUhnloJH2gRR+SomMR8I6P0y/kKjuAkG68pY/GZtSJ9\n6ReFQSmaSapg/ci87hf7bIv9/rQMhUholccnRdIW+wUnmP3GqKP0yVPOJTE18AaF\nHpZPjSghkrURXAj4ScIfO8PeDHZkBJHVknNKTHo79Fo49Q+BcYmliNcC2QKBgD9L\niuUhILSHG37HkJUAVfpTKN1KVrT35JkbFvc6n4wMe4RSxX9AnukjFHIEmc2ImnO4\nhXFnKcm+gluVu7NzLcmudqZtCICE/+TE74/lT1nNVIEyKrYkSfbhXg/CpPl0JlwN\nE41yuSnZi9ui5kfREyINbUQtzpb2oBBsryydRa/5AoGBAK3J5iigbSiLXPIs7SDt\n6GlvzmRm4uBQjLdt6Ga3ik8XsSGJ2ImezNJ15grPkXNdEuDhFBZJr3okBA6mv22L\nYimtU12NOuEGt0XtXGW+gRSJlVxttaK9uLgQp46hKP5qB7JlDwHJJz9Dt/mO76yX\n5HyTbTtfVcw6DJtdqbHuPJLA\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-qbrdr@paragliding-monitoring-system.iam.gserviceaccount.com",
+  "client_id": "116219717117470856169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qbrdr%40paragliding-monitoring-system.iam.gserviceaccount.com"
+}
