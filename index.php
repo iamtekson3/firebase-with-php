@@ -10,14 +10,14 @@
     <?php
     echo 'what';
       include('./include/db.php');
-      $ref = 'paragliding-monitoring-system/Paraglider\ Location';
+      $ref = 'Paraglider Location';
+      $i=0;
       $data = $database->getReference($ref)->getValue();
-      $i = 0;
-      echo('<h1>who r u</h1>');
-      foreach($data as $key -> $data1) {
-        echo('<h1>$data1["altitude"]</h1>');
-        $i++;
-      };
+      print_r($data);
+      $lat = $data['latitude'];
+      $lng = $data['longitude'];
+      $alt = $data['altitude'];
+      echo "<h1>Latitude = ".$lat."</h1><h1>Longitude = ".$lng."</h1><h1>Altitude = ".$alt."</h1>";
     ?>
 
   </body>
