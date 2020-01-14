@@ -1,0 +1,14 @@
+{
+    "name": "tekson/firebase-php",
+    "description": "This code will show the connection between php and realtime database in firebase",
+    "type": "project",
+    "license": "GUI3",
+    "authors": [
+        {
+            "name": "iamtekson",
+            "email": "teksondada@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
